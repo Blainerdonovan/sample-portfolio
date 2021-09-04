@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 nav {
     background-color: #000000;
     align-items: center;
@@ -33,4 +37,16 @@ a {
     border-bottom: 2px solid #92cbcd;
     font-size: 17px;
     color: #92cbcd;
+}
+
+img {
+    width: 100vw;
+}
+
+.hero-text {
+    background-color: #92cbcd;
+    margin: -60px 17px 40px;
+    position: absolute;
+    right: 0;
+    padding: 2px 40px
 }
