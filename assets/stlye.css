@@ -1,0 +1,36 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+nav h1 {
+    margin: 0px;
+    font-size: 30px;
+    background-color: #92cbcd;
+    padding: 0px 20px 0px 50px;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid #92cbcd;
+    font-size: 17px;
+    color: #92cbcd;
+}
