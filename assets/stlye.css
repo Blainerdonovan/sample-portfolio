@@ -57,6 +57,7 @@ img {
 .h1 {
     color: #302a71;
     font-size: 30px;
+    padding-right: 15px;
     margin-right: 6px;
     border-right: 4px solid #302a71;
     text-align: right;
@@ -65,10 +66,19 @@ img {
 
 .about-me {
     display: flex;
+    padding-left: 20px;
+}
+
+p {
+    padding: 0px 60px 0px 20px;
 }
 
 .work {
     display: flex;
+}
+
+.main {
+    padding-left: 20px;
 }
 
 .footer {
