@@ -59,7 +59,6 @@ a {
 
 .h1 {
     color: #302a71;
-    background-color: blueviolet;
     font-size: 30px;
     padding-right: 15px;
     margin-right: 20;
@@ -68,8 +67,8 @@ a {
     margin-left: 100px;
 }
 
-.work .h1 {
-    padding-left: 14px;
+#work .h1 {
+    padding-left: 11px;
 }
 
 aside {
@@ -110,43 +109,43 @@ p {
 
 .third {
     border: 4px solid #92cbcd;
-    /* width: 50%; */
-
 }
 
-.footer {
+footer .h1 {
+    background-color: blueviolet;
+    display: flex;
+    margin: 0px 23px;
+}
+.footnav {
     background-color: #e6ffff;
     color: #302a71;
     font-size: 30px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 0px 10px;
 }
 
-.footer h1 {
+.footnav h1 {
     display: flex;
-    /* padding: 0px;
-    margin: 0px; */
+    margin-right: 23px;
     font-size: 30px;
     color: #302a71;
     background-color: #e6ffff;
-    /* padding: 0px 20px 0px 50px; */
 }
 
-.footer ul{
-    justify-content: space-between;
+.footnav ul {
+    padding: 0px;
+    margin: 20px 160px;
 }
 
-.footer ul li {
-    display: inline-flex;
-    justify-content: space-around;
+.footnav ul li {
+    display:inline-flex;
     list-style-type: none;
     background-color: #e6ffff;
-    color: #302a71;    
+    color: #302a71;   
+    margin: 0px 5px; 
 }
 
-.footer li {
+.footnav li {
     background-color: #e6ffff;
     justify-content: space-around;
 }
@@ -159,10 +158,6 @@ p {
     color: #302a71;
     padding: 0px 20px;
     margin: max;
-}
-
-.list a {
-    justify-content: space-between;
 }
 
 .img {
@@ -188,14 +183,23 @@ p {
 
 h3 {
     font-size: 25px;
+    background-color: #92cbcd;
 }
 
 h4 {
     font-size: 12px;
+    background-color: #92cbcd;
 }
+
+@media screen and (max-width: 1366px) {
+    .footnav {
+        margin: 35px 176px;
+    }
+}
+
 @media screen and (max-width: 992px) {
-    body {
-        background-color: yellow;
+    .footnav {
+        margin: 30px 150px;
     }
     
     .h1 {
@@ -217,6 +221,12 @@ h4 {
     
 }
 
-@media screen and {max-width: 375px; {
+/* @media screen and (max-width: 640px) {
+    body {
+        background-color: red;
+    }
 
-}
+    .footnav {
+        margin: 35px 176px;
+    }
+} */
