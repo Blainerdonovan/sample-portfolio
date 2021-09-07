@@ -133,6 +133,7 @@ footer .h1 {
 }
 
 .footnav ul {
+    display: inline-flex;
     padding: 0px;
     margin: 20px 160px;
 }
@@ -184,11 +185,13 @@ footer .h1 {
 h3 {
     font-size: 25px;
     background-color: #92cbcd;
+    margin: 5px 0px;
 }
 
 h4 {
     font-size: 12px;
     background-color: #92cbcd;
+    margin: 7px 0px;
 }
 
 @media screen and (max-width: 1366px) {
