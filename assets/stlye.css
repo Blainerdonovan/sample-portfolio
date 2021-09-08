@@ -16,12 +16,11 @@ body {
 }
 
 .nav h1 {
-    margin: 0px;
+    margin: 0px 0px 5px;
     font-size: 35px;
     color: #1d1c25;
     background-color: #92cbcd;
     padding: 0px 20px 0px 50px;
-    margin-bottom: 5px;
 }
 
 .ul {
@@ -32,6 +31,7 @@ body {
 .ul li {
     margin-right: 20px;
     list-style-type: none;
+    background-color: #1d1c25;
 }
 
 a {
@@ -45,6 +45,7 @@ a {
 
 .first {
     width: 100vw;
+    border: none;
 }
 
 .hero-text {
@@ -56,6 +57,9 @@ a {
     padding: 5px 41px 5px 15px
 }
 
+aside {
+    display: flex;
+}
 
 .h1 {
     color: #302a71;
@@ -67,112 +71,26 @@ a {
     margin-left: 100px;
 }
 
-#work .h1 {
-    padding-left: 11px;
-}
-
-aside {
-    display: flex;
-}
-
 p {
     padding: 0px 60px 0px 20px;
 }
 
-/* .work {
-    display: flex;
-} */
-
+#work .h1 {
+    padding-left: 11px;
+}
 
 .main-content {
     display: flex;
 }
 
-
 .main {
     padding-left: 20px;
 }
 
-.flex-direction{
-    display: flex;
-}
-
-.second {
+.project {
     width: 95%;
     border: 4px solid #92cbcd;
-}
-
-.coloumn {
-    width: 50px;
-    border: 3px solid black;
-}
-
-.third {
-    border: 4px solid #92cbcd;
-}
-
-footer .h1 {
-    background-color: blueviolet;
-    display: flex;
-    margin: 0px 23px;
-}
-.footnav {
-    background-color: #e6ffff;
-    color: #302a71;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-}
-
-.footnav h1 {
-    display: flex;
-    margin-right: 23px;
-    font-size: 30px;
-    color: #302a71;
-    background-color: #e6ffff;
-}
-
-.footnav ul {
-    display: inline-flex;
-    padding: 0px;
-    margin: 20px 160px;
-}
-
-.footnav ul li {
-    display:inline-flex;
-    list-style-type: none;
-    background-color: #e6ffff;
-    color: #302a71;   
-    margin: 0px 5px; 
-}
-
-.footnav li {
-    background-color: #e6ffff;
-    justify-content: space-around;
-}
-
-.list {
-    background-color: #e6ffff;
-    text-decoration: none;
-    border-bottom: 4px solid #302a71;
-    font-size: 17px;
-    color: #302a71;
-    padding: 0px 20px;
-    margin: max;
-}
-
-.img {
-    width: 90%;
-}
-
-.column {
-    margin: 10px;
-    
-}
-
-.article {
-    display: flex;
-    margin: -9px;
+    cursor: grab;
 }
 
 .title {
@@ -194,13 +112,114 @@ h4 {
     margin: 7px 0px;
 }
 
-@media screen and (max-width: 1366px) {
-    .footnav {
-        margin: 35px 176px;
-    }
+.article {
+    display: flex;
+    margin: -9px;
 }
 
-@media screen and (max-width: 992px) {
+.column {
+    margin: 10px;
+}
+
+/* .column1 {
+    width: 960px;
+    height: 460px;
+    position: relative;
+}
+
+/* .overlay {
+    position: absolute;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
+.column1:hover .overlay {
+    opacity: 1;
+} */
+
+img {
+    width: 90%;
+    border: 4px solid #92cbcd;
+    cursor: grab;
+}
+
+.footnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footnav .h1 {
+    margin: 24px 0px 24px 74px;
+}
+
+.footnav ul {
+    display: flex;
+    
+}
+
+.footnav ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 25px;
+}
+
+
+/* footer {
+    padding: 0px;
+}
+
+.footnav {
+    display: flex;
+    padding-right: 235px;
+    justify-content: space-between;
+}
+
+.footnav h1 {
+    display: flex;
+    margin-right: 23px;
+    font-size: -60px;
+    color: #302a71;
+    background-color: #e6ffff;
+}
+
+.footnav ul {
+    display: inline-flex;
+    padding: 0px;
+    margin: 20px 160px;
+}
+
+.footnav ul li {
+    display:inline-flex;
+    list-style-type: none;
+    background-color: #e6ffff;
+    color: #302a71;   
+    margin: 0px 5px; 
+}
+
+.footnav li {
+    background-color: #e6ffff;
+    justify-content: space-around;
+} */
+
+.list {
+    background-color: #e6ffff;
+    text-decoration: none;
+    border-bottom: 4px solid #302a71;
+    font-size: 17px;
+    color: #302a71;
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+/* 
+@media screen and (min-width: 1366px) {
+    /* .footnav {
+        margin: 35px 176px;
+    }
+} */
+
+/* @media screen and (max-width: 992px) {
     .footnav {
         margin: 30px 150px;
     }
@@ -219,17 +238,5 @@ h4 {
 
     h4 {
         font-size: 10px
-    }
-
-    
-}
-
-/* @media screen and (max-width: 640px) {
-    body {
-        background-color: red;
-    }
-
-    .footnav {
-        margin: 35px 176px;
     }
 } */
