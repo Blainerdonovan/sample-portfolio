@@ -25,7 +25,7 @@ Jump links, images cropped for size, making sure there were enough containers to
 Using gloabl tag would impliment style to same element, needing to create anough classes to style the different sections in there own way. The attempt at the hover psuedo element is in the style sheet however is commented out as was unsuccessful. 
 
 ## MEDIA QUERIES
-Screen sizes are for two desktop views, tablet view and smartphone views. Troubles occured with the footer and the desktop views mainting the margin of the Contact Me title of the seciton causing the solid border go in and out of line depending on pixel view size. Header also restyled from flex row when down to tablet/smartphone.
+Screen sizes are for desktop views, tablet view and smartphone views. Troubles occured with the footer and the desktop views mainting the margin of the Contact Me title of the seciton causing the solid border go in and out of line depending on pixel view size. Header also restyled from flex row when down to tablet/smartphone.
 
 ## AS AN employer*
 I WANT to view a potential employee's deployed portfolio of work samples
