@@ -224,17 +224,32 @@ img {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .nav {
         width: 100%;
         background-color: #1d1c25;
-        display: flex;
         justify-content: center;
         align-content: space-around;
         display: inline-block;
         padding: 10px 0px 10px 0px;
     }
 
+    aside {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .h1 {
+        color: #302a71;
+        font-size: 30px;
+        padding-right: 15px;
+        margin-right: 20;
+        border-bottom: 4px solid #302a71;
+        text-align: right;
+        margin-left: 100px;
+    }
+    
     .footnav .h1 {
         margin: 24px 0px 24px 74px;
     }
@@ -244,7 +259,6 @@ img {
         padding: 15px;
         margin: 0px 15px;
     }
-
 }
 
 @media screen and (max-width: 500px) {
