@@ -244,15 +244,24 @@ img {
         font-size: 30px;
         padding-right: 15px;
         margin-right: 20;
-        border-bottom: 4px solid #302a71;
+        /* border-bottom: 4px solid #302a71; */
         text-align: right;
         margin-left: 100px;
     }
-    .main-content {
+    /* .main-content {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    } */
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 109%;
+        margin: -9px;
     }
+    
     .footnav .h1 {
         margin: 24px 0px 24px 74px;
     }
