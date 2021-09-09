@@ -14,7 +14,11 @@ https://blainerdonovan.github.io/sample-portfolio/
 ## Deployed desktop view of sample-portfolio
 ![sraC0](https://user-images.githubusercontent.com/87785690/132633859-1871cc9e-8825-418a-b3c7-67e9714c889e.png)
 
-/Users/blizzybear/Desktop/Repositories/HW/sample-portfolio/assets/images/Screenshot 2021-09-09 at 00-21-48 Sample Portfolio.jpg
+## Tablet view
+![Screenshot 2021-09-09 at 13-36-57 Sample Portfolio](https://user-images.githubusercontent.com/87785690/132752424-94e07538-9012-4fbd-86ea-c9342369f8a0.png)
+
+## Smartphone view
+![Screenshot 2021-09-09 at 13-43-26 Sample Portfolio](https://user-images.githubusercontent.com/87785690/132752591-33765c6d-b398-4e2d-aade-58d7723e549f.png)
 
 ## Changes made
 
