@@ -146,22 +146,21 @@ img {
 
 .footnav {
     display: flex;
-    justify-content: space-between;
 }
 
 .footnav .h1 {
-    margin: 24px 0px 24px 74px;
+    margin: 24px 0px 24px 21px;
 }
 
 .footnav ul {
     display: flex;
-    
+    padding: 30px;
+    margin: 0px 120px;
 }
 
 .footnav ul li {
-    margin-right: 20px;
     list-style-type: none;
-    padding: 25px;
+    padding: 10px;
 }
 
 
@@ -212,31 +211,97 @@ img {
     margin: 0px;
 }
 
-/* 
-@media screen and (min-width: 1366px) {
-    /* .footnav {
-        margin: 35px 176px;
+@media screen and (max-width: 1080px) {
+    .footnav .h1 {
+        margin: 24px 0px 24px 50px;
     }
-} */
 
-/* @media screen and (max-width: 992px) {
-    .footnav {
-        margin: 30px 150px;
+    .footnav ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        margin: 0px 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        width: 100%;
+        background-color: #1d1c25;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        display: inline-block;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .footnav .h1 {
+        margin: 24px 0px 24px 74px;
+    }
+
+    .footnav ul {
+        display: flex;
+        padding: 15px;
+        margin: 0px 15px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        background-color: #1d1c25;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .ul {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-content: center;
+        background-color: #1d1c25;
+    }
+
+    .ul li {
+        margin-right: 20px;
+        list-style-type: none;
+        background-color: #1d1c25;
+    }
+
+    a {
+        background-color: #1d1c25;
+        text-decoration: none;
+        border-bottom: 4px solid #92cbcd;
+        font-size: 12px;
+        color: #92cbcd;
+        padding: 0px 10px;
+    }
+
+    aside {
+        display: block;
     }
     
     .h1 {
-        margin: 0px 4px 0px 50px;
+        color: #302a71;
+        font-size: 30px;
+        padding-right: 15px;
+        margin-right: 20;
+        border-right: 4px solid #302a71;
+        text-align: right;
+        margin-left: 100px;
     }
     
-    .article {
-        display: block;
+    p {
+        padding: 0px 60px 0px 20px;
+    }
+    .footnav .h1 {
+        margin: 24px 0px 24px 74px;
     }
 
-    h3 {
-        font-size: 20px;
+    .footnav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 0px 15px;
     }
-
-    h4 {
-        font-size: 10px
-    }
-} */
+}
