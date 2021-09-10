@@ -123,14 +123,21 @@ h4 {
     margin: 10px;
 }
 
-/* Attempts at hover psuedo element */
-/* .column1 {
+.column:hover {
+    opacity: 0.5;
+}
+
+/* .column {
+    margin: 10px;
+}
+
+.column {
     width: 960px;
     height: 460px;
     position: relative;
 }
 
-/* .overlay {
+.overlay {
     position: absolute;
     width: 95%;
     background-color: rgba(0, 0, 0, 0.6);
