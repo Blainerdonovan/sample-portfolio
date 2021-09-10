@@ -8,6 +8,8 @@ I researched and was able to apply opening links in new tabs, opening a new emai
 
 Challenges were applying the hover psuedo element and aligning flex boxes with the work section and the footer. Discovering how to use absolute/relative position writing affective code to deploy website successfully, whilst noticing if any redundant code was apparent. 
 
+-----Hover psuedo class applied!
+
 ## Deployed website for Sample Portfolio
 https://blainerdonovan.github.io/sample-portfolio/
 
